@@ -20,14 +20,12 @@
 <body>
 <div class="Shell">
     <aside class='SideBar'>
-    <section class='avatar' style="background-image: url()">
-        <div class='av-pic' style="background-image: url()">
+    <section class='avatar' style="background-image: url(/assets/header.png)">
+        <div class='av-pic' style="background-image: url(/uploads/kabi.jpg)">
         </div>
     </section>
     <section class='menu'>
         <div>Mia&#39;s Blog</div>
-        
-            <div>to be continued...</div>
         
         <ul>
           
@@ -37,6 +35,18 @@
           
             <a href="/archives/" class="Btn">
               <li>Archive</li>
+            </a>  
+          
+            <a href="/tags/" class="Btn">
+              <li>Tags</li>
+            </a>  
+          
+            <a href="/categories/" class="Btn">
+              <li>Categories</li>
+            </a>  
+          
+            <a href="/about/" class="Btn">
+              <li>About</li>
             </a>  
           
         </ul>
@@ -61,10 +71,10 @@
 <li><p>主轴：flex-direction</p>
 <p>  主轴沿inline方向延伸</p>
 <p>  row<br>  row-reverse</p>
-<p>  <img src="Flex%E5%B8%83%E5%B1%80%20b0e6aab4a9b14f38a5951fdfd8fdbc34/Untitled.png" alt="Flex%E5%B8%83%E5%B1%80%20b0e6aab4a9b14f38a5951fdfd8fdbc34/Untitled.png"></p>
+<p>  <img src="/images/Untitled.png"></p>
 <p>  主轴沿block方向延伸</p>
 <p>  column<br>  column-reverse</p>
-<p>  <img src="Flex%E5%B8%83%E5%B1%80%20b0e6aab4a9b14f38a5951fdfd8fdbc34/Untitled%201.png" alt="Flex%E5%B8%83%E5%B1%80%20b0e6aab4a9b14f38a5951fdfd8fdbc34/Untitled%201.png"></p>
+<p>  <img src="/images/Untitled%201.png"></p>
 </li>
 <li><p>交叉轴</p>
 </li>
@@ -86,7 +96,7 @@
 <li><code>[flex-wrap](https://developer.mozilla.org/zh-CN/docs/Web/CSS/flex-wrap)</code> 属性为 <code>nowrap。</code></li>
 </ul>
 <p>这会让你的元素呈线形排列，并且把自己的大小作为主轴上的大小。如果有太多元素超出容器，它们会溢出而不会换行。如果一些元素比其他元素高，那么元素会沿交叉轴被拉伸来填满它的大小。</p>
-<p><img src="Flex%E5%B8%83%E5%B1%80%20b0e6aab4a9b14f38a5951fdfd8fdbc34/Untitled%202.png" alt="Flex%E5%B8%83%E5%B1%80%20b0e6aab4a9b14f38a5951fdfd8fdbc34/Untitled%202.png"></p>
+<p><img src="/images/Untitled%202.png" alt=" "></p>
 <figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.box</span> &#123;</span><br><span class="line">            <span class="attribute">display</span>: flex;</span><br><span class="line">      &#125;</span><br></pre></td></tr></table></figure>
 
 <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;box&quot;</span>&gt;</span></span><br><span class="line">          <span class="tag">&lt;<span class="name">div</span>&gt;</span>One<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">          <span class="tag">&lt;<span class="name">div</span>&gt;</span>Two<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">          <span class="tag">&lt;<span class="name">div</span>&gt;</span>Three</span><br><span class="line">              <span class="tag">&lt;<span class="name">br</span>&gt;</span>has</span><br><span class="line">              <span class="tag">&lt;<span class="name">br</span>&gt;</span>extra</span><br><span class="line">              <span class="tag">&lt;<span class="name">br</span>&gt;</span>text</span><br><span class="line">          <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
@@ -94,11 +104,11 @@
 <ul>
 <li><p>更改flex-direction</p>
 <p>  flex-direction: row-reverse 可以让元素沿着行的方向显示，但是起始线和终止线位置会交换。</p>
-<p>  <img src="Flex%E5%B8%83%E5%B1%80%20b0e6aab4a9b14f38a5951fdfd8fdbc34/Untitled%203.png" alt="Flex%E5%B8%83%E5%B1%80%20b0e6aab4a9b14f38a5951fdfd8fdbc34/Untitled%203.png"></p>
+<p>  <img src="/images/Untitled%203.png"></p>
 <p>  flex-direction: column 主轴和交叉轴交换，元素沿着列的方向排列显示。改为 column-reverse ，起始线和终止线交换。</p>
-<p>  <img src="Flex%E5%B8%83%E5%B1%80%20b0e6aab4a9b14f38a5951fdfd8fdbc34/Untitled%204.png" alt="Flex%E5%B8%83%E5%B1%80%20b0e6aab4a9b14f38a5951fdfd8fdbc34/Untitled%204.png"></p>
+<p>  <img src="/images/Untitled%204.png"></p>
 <p>  flex-direction:column</p>
-<p>  <img src="Flex%E5%B8%83%E5%B1%80%20b0e6aab4a9b14f38a5951fdfd8fdbc34/Untitled%205.png" alt="Flex%E5%B8%83%E5%B1%80%20b0e6aab4a9b14f38a5951fdfd8fdbc34/Untitled%205.png"></p>
+<p>  <img src="/images/Untitled%205.png"></p>
 <p>  flex-direction:column-reverse</p>
 <h2 id="用flex-wrap实现多行flex容器"><a href="#用flex-wrap实现多行flex容器" class="headerlink" title="用flex-wrap实现多行flex容器"></a>用flex-wrap实现多行flex容器</h2><p>  flex-wrap:wrap 对项目的子元素换行显示，防止溢出</p>
 <h2 id="简写属性flex-flow"><a href="#简写属性flex-flow" class="headerlink" title="简写属性flex-flow"></a>简写属性flex-flow</h2><p>  可以将两个属性 flex-direction 和 flex-wrap 组合为简写属性 flex-flow。第一个指定的值为 flex-direction ，第二个指定的值为 flex-wrap.</p>
@@ -106,7 +116,7 @@
 
 <h2 id="flex元素上的属性"><a href="#flex元素上的属性" class="headerlink" title="flex元素上的属性"></a>flex元素上的属性</h2><p>  <strong>可用空间：</strong>假设在 1 个 500px 的容器中，我们有 3 个 100px 宽的元素，那么这 3 个元素需要占 300px 的宽，剩下 200px 的可用空间。在默认情况下， flexbox 的行为会把这 200px 的空间留在最后一个元素的后面。</p>
 <p>  如果期望这些元素能自动地扩展去填充满剩下的空间，那么我们需要去控制可用空间在这几个元素间如何分配，这就是元素上的那些 flex 属性要做的事。</p>
-<p>  <img src="Flex%E5%B8%83%E5%B1%80%20b0e6aab4a9b14f38a5951fdfd8fdbc34/Untitled%206.png" alt="Flex%E5%B8%83%E5%B1%80%20b0e6aab4a9b14f38a5951fdfd8fdbc34/Untitled%206.png"></p>
+<p>  <img src="/images/Untitled%206.png"></p>
 <p>  This flex container has available space after laying out the items.</p>
 <ul>
 <li><p><code>[flex-grow](https://developer.mozilla.org/zh-CN/docs/Web/CSS/flex-grow)</code></p>
@@ -147,13 +157,13 @@
 <p>  使元素在<strong>主轴方向</strong>上对齐</p>
 <p>  <code>stretch</code></p>
 <p>  <code>flex-start</code></p>
-<p>  <img src="Flex%E5%B8%83%E5%B1%80%20b0e6aab4a9b14f38a5951fdfd8fdbc34/Untitled%207.png" alt="Flex%E5%B8%83%E5%B1%80%20b0e6aab4a9b14f38a5951fdfd8fdbc34/Untitled%207.png"></p>
+<p>  <img src="/images/Untitled%207.png"></p>
 <p>  <code>flex-end</code></p>
-<p>  <img src="Flex%E5%B8%83%E5%B1%80%20b0e6aab4a9b14f38a5951fdfd8fdbc34/Untitled%208.png" alt="Flex%E5%B8%83%E5%B1%80%20b0e6aab4a9b14f38a5951fdfd8fdbc34/Untitled%208.png"></p>
+<p>  <img src="/images/Untitled%208.png"></p>
 <p>  <code>center</code></p>
-<p>  <img src="Flex%E5%B8%83%E5%B1%80%20b0e6aab4a9b14f38a5951fdfd8fdbc34/Untitled%209.png" alt="Flex%E5%B8%83%E5%B1%80%20b0e6aab4a9b14f38a5951fdfd8fdbc34/Untitled%209.png"></p>
+<p>  <img src="/images/Untitled%209.png" alt="/images/Untitled%209.png"></p>
 <p>  <code>space-around</code> 使每个元素的左右空间相等</p>
-<p>  <img src="Flex%E5%B8%83%E5%B1%80%20b0e6aab4a9b14f38a5951fdfd8fdbc34/Untitled%2010.png" alt="Flex%E5%B8%83%E5%B1%80%20b0e6aab4a9b14f38a5951fdfd8fdbc34/Untitled%2010.png"></p>
+<p>  <img src="/images/Untitled%2010.png" alt="/images/Untitled%2010.png"></p>
 </li>
 </ul>
 </li>
