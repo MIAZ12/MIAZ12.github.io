@@ -18,25 +18,9 @@
   <meta name="author" content="Mia">
   <meta name="keywords" content="">
   
-  <title>继承 - Mia&#39;s Blog</title>
+  <title>页面走丢啦~ - Mia&#39;s Blog</title>
 
   <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" />
-
-
-  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/github-markdown-css@4.0.0/github-markdown.min.css" />
-  <link  rel="stylesheet" href="/lib/hint/hint.min.css" />
-
-  
-    
-    
-      
-      <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@10.6.0/styles/github-gist.min.css" />
-    
-  
-
-  
-    <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
-  
 
 
 
@@ -64,7 +48,7 @@
 
 
 <body>
-  <header style="height: 70vh;">
+  <header style="height: 85vh;">
     <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
   <div class="container">
     <a class="navbar-brand"
@@ -163,46 +147,9 @@
       <div class="full-bg-img">
         <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
           <div class="page-header text-center fade-in-up">
-            <span class="h2" id="subtitle" title="继承">
+            <span class="h2" id="subtitle" title="Page not found">
               
             </span>
-
-            
-              <div class="mt-3">
-  
-  
-    <span class="post-meta">
-      <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-      <time datetime="2021-03-12 19:22" pubdate>
-        2021年3月12日 晚上
-      </time>
-    </span>
-  
-</div>
-
-<div class="mt-1">
-  
-    
-    <span class="post-meta mr-2">
-      <i class="iconfont icon-chart"></i>
-      167 字
-    </span>
-  
-
-  
-    
-    <span class="post-meta mr-2">
-      <i class="iconfont icon-clock-fill"></i>
-      
-      
-      1
-       分钟
-    </span>
-  
-
-  
-  
-</div>
 
             
           </div>
@@ -217,96 +164,13 @@
     
       
 
-<div class="container-fluid nopadding-x">
-  <div class="row nomargin-x">
-    <div class="d-none d-lg-block col-lg-2"></div>
-    <div class="col-lg-8 nopadding-x-md">
-      <div class="container nopadding-x-md" id="board-ctn">
-        <div class="py-5" id="board">
-          <article class="post-content mx-auto">
-            <!-- SEO header -->
-            <h1 style="display: none">继承</h1>
-            
-            <div class="markdown-body">
-              <h1 id="继承"><a href="#继承" class="headerlink" title="继承"></a>继承</h1><ul>
-<li>本地类</li>
-<li>宿主类</li>
-<li>基类</li>
-<li>抽象类</li>
-</ul>
-<ol>
-<li>继承的方式</li>
-</ol>
-<ul>
-<li><p><strong>对象冒充</strong></p>
-<p>  原理：构造函数使用this关键词给所有的属性和方法赋值。令classA的构造函数成为classB的方法，那么classB收到classA的构造函数中定义的属性和方法。（也就是B继承了A）。</p>
-<p>  新属性和新方法要在删除了新方法的代码行后定义，否则会覆盖父类的相关属性和方法。</p>
-<p>  对象冒充可以支持多重继承,也就是说一个类可以继承多个类.</p>
-</li>
-<li><p><strong>call()方法</strong></p>
-<p>  <code>call(object,para1,para2...)</code></p>
-<p>  <code>object</code>：this的对象</p>
-</li>
-<li><p><strong>apply()方法</strong></p>
-<p>  <code>apply(object,array)</code></p>
-</li>
-<li><p><strong>原型链</strong></p>
-</li>
-</ul>
+<script>
+  function redirect() {
+    location.href = "/";
+  }
 
-            </div>
-            <hr>
-            <div>
-              <div class="post-metas mb-3">
-                
-                
-              </div>
-              
-                <p class="note note-warning">
-                  
-                    本博客所有文章除特别声明外，均采用 <a target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh" rel="nofollow noopener noopener">CC BY-SA 4.0 协议</a> ，转载请注明出处！
-                  
-                </p>
-              
-              
-                <div class="post-prevnext">
-                  <article class="post-prev col-6">
-                    
-                    
-                      <a href="/2021/03/15/article-1/">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">Flex布局</span>
-                        <span class="visible-mobile">上一篇</span>
-                      </a>
-                    
-                  </article>
-                  <article class="post-next col-6">
-                    
-                    
-                  </article>
-                </div>
-              
-            </div>
-
-            
-          </article>
-        </div>
-      </div>
-    </div>
-    
-      <div class="d-none d-lg-block col-lg-2 toc-container" id="toc-ctn">
-        <div id="toc">
-  <p class="toc-header"><i class="iconfont icon-list"></i>&nbsp;目录</p>
-  <div class="toc-body" id="toc-body"></div>
-</div>
-
-      </div>
-    
-  </div>
-</div>
-
-<!-- Custom -->
-
+  //setTimeout(redirect, 3000)
+</script>
 
     
 
@@ -387,15 +251,9 @@
 
 
 
-  <script  src="https://cdn.jsdelivr.net/npm/tocbot@4.12.2/dist/tocbot.min.js" ></script>
 
 
 
-  <script  src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js" ></script>
-
-
-
-  <script  src="https://cdn.jsdelivr.net/npm/anchor-js@4.3.0/anchor.min.js" ></script>
 
 
 
